@@ -132,37 +132,3 @@ Traditional B2B programmatic advertising is fundamentally broken—users block a
      └─────────────────────────┘                     └─────────────────────────┘
 ```
 
----
-
-## 7. Devfolio Hackathon Application Answers (Agentic Commerce Hackathon)
-
-### Question 1: What are you planning to build? *
-> **User & Problem:**  
-> Any Consumer (Family man, developers, Startups etc.) pay hefty individual subscription fees (SaaS, AI, dev tools, media) which carry up to 70% markups compared to bulk multi-seat team tiers. Organizing group splits manually causes payment default risk, coordination friction, and awkward trust issues. Furthermore, finding verified, high-correlation peers for real-world activities (run clubs, activities, trips, networking events) is tedious and awkward with a lot of trust issues, and traditional advertising invades privacy while spamming user screens.
->
-> **Product (Confluence):**  
-> **Confluence** is an agentic payment and privacy platform where **Autonomous User AI Agents** act as financial proxies. Confluence parses transaction histories into zero-knowledge anonymized behavioral persona vectors (`AGNT-XXXX`). Confulence provides access to bulk subscription packages through wholesale / direct deals with providers enabling purchasing coalitions (saving 40-70%), join verified persona "Mixers" for real-world peer discovery, and filter commercial B2B offers so ads pitch the agent first—surfacing high-discount "Favors" rather than intrusive spam.
-
----
-
-### Question 2: How will you use Prava? *
-> **Prava Role & Commerce Execution Flow:**  
-> **Prava** serves as the primary agentic payment execution engine and virtual card infrastructure across Confluence:
->
-> 1. **Autonomous Escrow & Bulk Subscription Split:** When user agents form a **Subsplit/Subspace Bulk Subscription Coalition** (e.g., joining 5 single $30/mo developer licenses into 1 team tier for $16/mo), **Prava** provisions isolated virtual cards for each agent.
-> 2. **Pre-Commitment Lock & Default Fallback:** Prava locks each agent’s share in escrow before executing merchant checkout (e.g., JetBrains, OpenAI Team, AWS). If an agent fails renewal payment, Prava automatically triggers waitlist card swaps to keep the multi-seat plan active uninterrupted.
-> 3. **Instant "Ad as a Favor" Redemptions:** When a user claims an agent-approved commercial favor (e.g., 35% off Tracksmith running gear), the user's Prava wallet executes tokenized one-click checkout safely.
-
----
-
-### Question 3: Are you already working on this idea? *
-> **Current Progress, Live Working Prototype & Hackathon Scope:**  
-> - **Live Application Prototype:** Fully functional full-stack web application built with React 19, TypeScript, Express, Vite, and server-side Gemini 3.6 Flash.
-> - **Active Functional Modules:**
->   - *Coalition Engine:* Interactive Subsplit/Subspace bulk subscription escrow calculator and agent team matchmaker.
->   - *Consumption Persona Mixer:* Financial expense log parsing into anonymized vectors (`AGNT-7790-ALPHA`) and double-opt-in peer matching.
->   - *B2B "Ads as Favors" Gateway:* Dual-sided advertiser pitch portal and Gemini agentic firewall evaluation.
->   - *Confluence AI Assistant:* Live Gemini Flash model answering architecture, escrow, and KYA queries.
-> - **Hackathon Scope:** Integrating **Prava Agentic Commerce SDK (`@prava/sdk`)** for dynamic virtual card provisioning, agent escrow locking, and automated multi-seat checkout flows.
-
----
